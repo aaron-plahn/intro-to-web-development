@@ -1,0 +1,22 @@
+{
+  "name": "intro-to-web-development",
+  "version": "0.1.0",
+  "description": "material for an intro web dev course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-plahn/intro-to-web-development.git"
+  },
+  "author": "Aaron Plahn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-plahn/intro-to-web-development/issues"
+  },
+  "homepage": "https://github.com/aaron-plahn/intro-to-web-development#readme",
+  "dependencies": {
+    "cypress": "^12.8.1"
+  }
+}

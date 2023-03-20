@@ -69,8 +69,21 @@ const result3 = undefined;
 
 const a = [3, 4, 12, 8, 16, 20, 22, 3.5, 2.2, 1, 7];
 
+const b = 'foo';
+
+
+let total = 0;
+
+a.forEach(
+    (n) => {total = total + n}
+)
+
+b.forEach(
+ (n) => {total = total + n}
+)
+
 // TODO Use `a.map(...)` to calculate a new Array whose elements are double those of `a`.
-const result4 = undefined;
+const result4 = total;
 
 /**
  * Exercise 5
